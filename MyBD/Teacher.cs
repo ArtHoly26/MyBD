@@ -11,10 +11,11 @@ namespace MyBD
         public int ID { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
+        public decimal Salary { get; set; }
 
         public void ShowInfo()
         {
-            Console.WriteLine($"ID {ID} Имя {FirstName} Фамилия {LastName}");
+            Console.WriteLine($"ID {ID} Имя {FirstName} Зарплата {Salary} Фамилия {LastName}");
         }
     }
 }
